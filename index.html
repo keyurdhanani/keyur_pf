@@ -28,6 +28,7 @@
             --dark-bg: #0a0a0f;
             --glass-bg: rgba(255, 255, 255, 0.05);
             --glass-border: rgba(255, 255, 255, 0.1);
+            
         }
 
         * {
@@ -734,7 +735,7 @@
                     <div class="glass-card" data-aos="zoom-in">
                         <div class="row align-items-center">
                             <div class="col-md-4 text-center mb-4 mb-md-0">
-                                <img src="https://picsum.photos/seed/keyurabout/300/300.jpg" alt="About" class="img-fluid rounded-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGrcm_S5zxSjrZ02xc9Vfdu4kXivX4wGEXFA&s" alt="About" class="img-fluid rounded-3">
                             </div>
                             <div class="col-md-8">
                                 <h3 class="gradient-text mb-3">Full Stack Developer & Data Enthusiast</h3>
@@ -751,20 +752,16 @@
                                 </p>
                                 <div class="stats-container">
                                     <div class="stat-item">
-                                        <div class="stat-number" data-target="25">0</div>
+                                        <div class="stat-number" data-target="24">0</div>
                                         <div class="stat-label">Technologies</div>
                                     </div>
                                     <div class="stat-item">
-                                        <div class="stat-number" data-target="15">0</div>
+                                        <div class="stat-number" data-target="4">0</div>
                                         <div class="stat-label">Projects</div>
                                     </div>
                                     <div class="stat-item">
                                         <div class="stat-number" data-target="3">0</div>
                                         <div class="stat-label">Years Experience</div>
-                                    </div>
-                                    <div class="stat-item">
-                                        <div class="stat-number" data-target="100">0</div>
-                                        <div class="stat-label">Happy Clients</div>
                                     </div>
                                 </div>
                             </div>
@@ -1148,20 +1145,13 @@
             offset: 100
         });
 
-        // Loader
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                document.getElementById('loader').classList.add('hidden');
-            }, 1500);
-        });
 
         // Typing Effect
         const texts = [
             'Full Stack Developer',
             'Data Analyst',
             'Mobile App Developer',
-            'UI/UX Designer',
-            'Problem Solver'
+            'UI Designer',
         ];
         let textIndex = 0;
         let charIndex = 0;
